@@ -1,0 +1,116 @@
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+    <!-- The first child in the layout is for the main Activity UI-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        tools:context=".AdminActivity"
+        android:id="@+id/lay2"
+        android:layout_margin="0dp"
+        android:background="#dddddd"
+        android:scrollbars="vertical"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="Enter Notice Board Message"
+            android:id="@+id/Message"
+            android:layout_marginTop="0dp"
+            android:textColor="#333333"
+            android:textSize="19dp"
+
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/edtxt"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:textColor="#2d3539"
+            android:textSize="18dp"
+            android:typeface="serif"
+            android:layout_below="@+id/Message"
+
+
+            android:scrollbars="vertical"
+            android:layout_marginTop="10dp"
+            android:background="#cccccc"
+            android:gravity="top|left"
+            />
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:text="Enter Admin Pincode"
+            android:id="@+id/txttt"
+            android:layout_marginTop="25dp"
+            android:textColor="#333333"
+            android:textSize="19dp"
+            android:layout_below="@+id/edtxt"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/pin"
+            android:layout_width="fill_parent"
+            android:layout_height="20dp"
+            android:textColor="#2d3539"
+            android:background="#cccccc"
+            android:textSize="18dp"
+            android:typeface="serif"
+            android:layout_below="@+id/txttt"
+
+            android:layout_marginTop="10dp"
+
+
+            />
+
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Notice Board"
+            android:id="@+id/button"
+            android:background="#7ebf89"
+            android:layout_below="@+id/pin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:textColor="#000000"
+            />
+
+
+
+
+    </RelativeLayout>
+
+    </ScrollView>
+
+    <!-- Side navigation drawer UI -->
+    <ListView
+        android:id="@+id/navList"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left|start"
+        android:background="#ffeeeeee"
+
+        />
+
+</android.support.v4.widget.DrawerLayout>
+
+<!-- The above ListView is for the Navigation Drawer-->

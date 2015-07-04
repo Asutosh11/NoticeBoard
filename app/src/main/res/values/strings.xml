@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">NoticeBoard</string>
+
+    <string name="hello_world">Hello world!</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="backg">#3bbd5a</string>
+    <string name="txtclr">#ffffff</string>
+
+    <string name="popupbackg">#63a563</string>
+    <string name="popuptxtclr">#ffffff</string>
+
+</resources>
