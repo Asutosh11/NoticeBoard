@@ -1,4 +1,14 @@
+This is a Notice Board app where an app admin can post notice from the admin panel using the admin pincode. Others can view the notice in the notice panel. 
+
+<br>
+<b>This app uses</b>
+<br>
+1. An android Navigation Drawer.
+2. Parse.com online database (android API) 
+
+<br>
 <b>Screenshots</b>
+<br>
 
 1. <br>
 ![Screenshot 1](https://github.com/Asutosh11/NoticeBoard/blob/master/Screenshots/1.png "")
