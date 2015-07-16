@@ -4,6 +4,7 @@ This is a Notice Board app where an app admin can post notice from the admin pan
 <b>This app uses</b>
 <br>
 1. An android Navigation Drawer.
+<br>
 2. Parse.com online database (android API) 
 
 <br>
