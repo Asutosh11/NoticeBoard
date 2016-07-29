@@ -26,11 +26,11 @@ import com.parse.ParseQuery;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ListView mDrawerList;
-    private DrawerLayout mDrawerLayout;
-    private ArrayAdapter<String> mAdapter;
-    private ActionBarDrawerToggle mDrawerToggle;
-    private String mActivityTitle;
+    ListView mDrawerList;
+    DrawerLayout mDrawerLayout;
+    ArrayAdapter<String> mAdapter;
+    ActionBarDrawerToggle mDrawerToggle;
+    String mActivityTitle;
     ParseObject NoticeText2;
     TextView txt1;
     String txtt;
