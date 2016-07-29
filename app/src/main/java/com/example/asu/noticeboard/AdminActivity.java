@@ -24,19 +24,17 @@ import com.parse.ParseException;
 import com.parse.ParseObject;
 import com.parse.ParseQuery;
 
-/**
- * Created by asu on 03-05-2015.
- */
+
 public class AdminActivity extends AppCompatActivity {
 
     Button button;
     Button button2;
     EditText edtxt;
-    private ListView mDrawerList;
-    private DrawerLayout mDrawerLayout;
-    private ArrayAdapter<String> mAdapter;
-    private ActionBarDrawerToggle mDrawerToggle;
-    private String mActivityTitle;
+    ListView mDrawerList;
+    DrawerLayout mDrawerLayout;
+    ArrayAdapter<String> mAdapter;
+    ActionBarDrawerToggle mDrawerToggle;
+    String mActivityTitle;
     ParseObject NoticeText;
     String theText;
     String pinText;
@@ -92,9 +90,7 @@ public class AdminActivity extends AppCompatActivity {
                 query.getInBackground("pKjvOUKvo3", new GetCallback<ParseObject>() {
                     public void done(ParseObject notc, ParseException e) {
                         if (e == null) {
-                            // Now let's update it with some new data.
-                            // In this case, only cheatMode and score
-                            // will get sent to the Parse Cloud. playerName hasn't changed.
+                            
                             if (pinText.equals("1010")) {
                                 notc.put("TheNoticeRead", theText);
                                 notc.saveInBackground();
