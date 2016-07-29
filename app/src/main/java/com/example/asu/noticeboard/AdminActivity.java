@@ -27,18 +27,18 @@ import com.parse.ParseQuery;
 
 public class AdminActivity extends AppCompatActivity {
 
-    Button button;
-    Button button2;
-    EditText edtxt;
-    ListView mDrawerList;
-    DrawerLayout mDrawerLayout;
-    ArrayAdapter<String> mAdapter;
-    ActionBarDrawerToggle mDrawerToggle;
-    String mActivityTitle;
-    ParseObject NoticeText;
-    String theText;
-    String pinText;
-    EditText pin;
+    private Button button;
+    private Button button2;
+    private EditText edtxt;
+    private ListView mDrawerList;
+    private DrawerLayout mDrawerLayout;
+    private ArrayAdapter<String> mAdapter;
+    private ActionBarDrawerToggle mDrawerToggle;
+    private String mActivityTitle;
+    private ParseObject NoticeText;
+    private String theText;
+    private String pinText;
+    private EditText pin;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
